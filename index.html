@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Omnia Younes Hassan - C38 Sun&Tues 8Pm Online - JS assignment-3</title>
+</head>
+<body>
+    
+
+    <section>
+        <div class="container">
+            <div class="bookmarker pt-5">
+                <h3>Bookmarker</h3>
+                <br>
+                <hr>
+            </div>
+            <div class="curd px-4">
+                <div class="curd-Site text-center py-5">
+                    <h2>Bookmark your favorite sites</h2>
+                    <p>Site Name</p>
+                    <input id="siteName" placeholder="Bookmark Name" type="text" />
+                    <p class="error error-alerm m-auto my-2" id="nameError"></p>
+                    <p>Site URL</p>
+                    <input id="siteUrl" placeholder="website URL" type="text" />
+                    <p class="error error-alerm m-auto my-2" id="urlError"></p>
+                    <br>
+                    <button class="btn btn-primary mt-4" onclick="submit()">Submit</button>
+                </div>
+                <div class="curd-DB">
+                    <table class="table mt-5 ">
+                        <tbody id="tableRow">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="footer">
+                    <hr>
+                    <p>© 2019 Bookmarker Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

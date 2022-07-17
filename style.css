@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: arial;
+}
+
+.bookmarker h3
+{
+    color: #aaa;
+    font-weight: 700;
+    padding-left: 30px;
+}
+
+.curd-Site 
+{
+    background-color:#eee ;
+}
+
+.curd-Site h2
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.curd-Site p
+{
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.curd-Site input
+{
+    font-size: 15px;
+    border: 1px solid #ddd;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.curd-Site input:hover
+{
+    box-shadow: 0px 0px 10px -3px #888 ;
+}
+
+.curd-Site .btn{
+    font-size: 15px; ;
+}
+
+.btn-primary:hover
+{
+    background-color:#0a3f77;
+	border: 1px solid #0a3f77;
+    box-shadow: 2px 5px 3px 0px #888;
+} 
+
+.curd-Site .error
+{
+    background-color:#ffb2b2;
+    color: #6d0000;
+    font-size: 18px;
+    border: 1px solid #6d0000;
+    width: 80%;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.curd-DB tr
+{
+    background-image: linear-gradient(#EEE,#FFF);
+}
+
+.curd-DB td
+{
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 35px ;
+}
+
+.btn-danger
+{
+    background-color:#910004;
+}
+
+.btn-danger:hover
+{
+	background-color:#510d0e;
+	border: 1px solid #510d0e;
+    box-shadow: 2px 5px 3px 0px #888;
+} 
+
+.footer hr
+{
+    margin-top: 50px;
+}
+
+.footer p
+{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #aaa;
+}
+
+p{
+    
+}
